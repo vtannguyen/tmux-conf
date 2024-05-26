@@ -10,5 +10,6 @@ To set up tmux, please take the following steps:
 ./install.sh
 ```
 * Run `tmux` from terminal and press `Ctrl + a + I` to install tmux plugins.
+* Open terminal preferences and select the correct font to `CommitMono Nerd Font`.
 
 Then the tmux is ready to use. Enjoy!

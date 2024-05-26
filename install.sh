@@ -7,3 +7,7 @@ if [ ! -d ~/.tmux/plugins/tpm ]; then
 fi
 
 mv .tmux.conf ~/.tmux.conf
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CommitMono.zip
+unzip -n CommitMono.zip -d ~/.local/share/fonts
+rm CommitMono.zip
