@@ -25,6 +25,7 @@ After=default.target
 
 [Service]
 Type=simple
+ExecStartPre=/bin/sleep 20
 ExecStart=$HOME/.local/bin/aw-qt
 Restart=on-failure
 
